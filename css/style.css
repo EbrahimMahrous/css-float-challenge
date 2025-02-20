@@ -151,7 +151,7 @@ body{
     margin: auto;
 }
 .about-content{
-    overflow: auto;
+    overflow: hidden;
     padding: 25px;
     
 }
@@ -221,7 +221,7 @@ body{
     margin: auto;
 }
 .portfolio-content{
-    overflow: auto;
+    overflow: hidden;
     padding: 25px;
 }
 .portfolio-item{
@@ -354,7 +354,7 @@ body{
     margin: auto;
 }
 .services-content{
-    overflow: auto;
+    overflow: hidden;
     padding: 25px;
 }
 .services-item{
@@ -410,7 +410,7 @@ body{
 .chooseUs-container{
     width: 70%;
     margin: auto;
-    overflow: auto;
+    overflow: hidden;
     padding: 25px;
     margin-bottom: 25px;
     position: relative;
@@ -552,7 +552,7 @@ body{
     margin: auto;
 }
 .price-content{
-    overflow: auto;
+    overflow: hidden;
     padding: 25px;
     /* background-color: rgb(177, 175, 175); */
 }
@@ -652,7 +652,7 @@ body{
 .two-boy{
     position: relative;
     height: 50vh;
-    overflow: auto;
+    overflow: hidden;
 }
 .boy{
     float: left;
@@ -663,7 +663,7 @@ body{
 }
 
 .boy-info{
-    overflow: auto;
+    overflow: hidden;
 }
 .boy-info img{
     width: 100px;
@@ -717,7 +717,7 @@ body{
     margin: auto;
 }
 .team-content{
-    overflow: auto;
+    overflow: hidden;
 }
 .team-item{
     float: left;
@@ -891,7 +891,7 @@ body{
     margin: auto;
 }
 .news-content{
-    overflow: auto;
+    overflow: hidden;
     /* background-color: rgb(177, 175, 175); */
     padding: 25px;
     /* line-height: 30px; */
@@ -939,12 +939,12 @@ body{
     border-radius: 20px;
 }
 .news-item-3icons{
-   overflow: auto;
+   overflow: hidden;
    margin-bottom: 15px;
    
 }
 .news-item-icon{
-    overflow: auto;
+    overflow: hidden;
     float: left;
     width: 25%;
     color: var(--main-color);
@@ -1150,6 +1150,8 @@ body{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .bar-icon{
+        visibility: hidden;
+    }
 }
 
